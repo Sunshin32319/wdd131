@@ -3,10 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Christine Goodwin</title>
+    <meta name="description"
+    content="WDD 131 - Dynamic Web Fundamentals. Christine Goodwin.
+    Week 1 prepare assignment to create a dynamic about me web page."/>
+    <meta name="author" content="Christine Goodwin"/>
 </head>
+
 <body>
-    <h1>WDD 131 - Hello World, I'm back!</h1>
-    <img src="" alt="My test img" />
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals - Christine Goodwin</h1>
+        <nav>
+            <a href="www.linkedin.com/in/christine-goodwin-a90231ba">LinkedIn</a>
+            <a href="https://byui.instructure.com/.">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng&id=p27#p27">Scripture</a>
+            <a href="#FinalProject">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <div id="about-me-card">
+                <h2>About Me</h2>
+                <p>
+                    My name is Christine Goodwin. I'm a single mother of two goofy kiddos. We also have a dog that weighs more than my oldest child. I have a son and
+                    a daughter. We live in the North Texas area and I'm realizing how much review I need for this class! Haha at least this first week I have the weekend
+                    to review more and work ahead so next week isn't so difficult.
+                </p>
+                <img src="images/family-picture.jpeg" alt="Goofy family picture" />
+            </div>
+        </section>
+        <section class="card">
+            <div id="resources-card">
+                <h2>Web Dev Resources</h2>
+                <ul>
+                    <a href="#Placeholder link">First Resource</a>
+                    <a href="#Placeholder link">Second Resource</a>
+                    <a href="#Placeholder link">Third Resource</a>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!--I know the instructions lay out a way to put the copyright symbol, I
+        couln't get it to work so I googled and found this solution to put "How to Code
+        the Copyright Symbol in HTML. To add a copyright symbol to a web page, use the
+        HTML entity for this symbol, &copy;. You can also use the HTML code &#169; 
+        to add this symbol to a page. Place this entity inside a paragraph, div, footer,
+         or other tag to make it appear on a page."Source: https://blog.hubspot.com/website/html-code-copyright#:~:text=How%20to%20Code%20the%20Copyright,it%20appear%20on%20a%20page.-->
+        <p>
+            &#169
+            <span id="currentyear">2024</span>
+            - Christine Goodwin - Texas, United States
+        </p>
+        <p>
+            <span id="lastModified">Last Modified: 04/26/2024 00:30</span>
+        </p>
+    </footer>
 </body>
 </html>
